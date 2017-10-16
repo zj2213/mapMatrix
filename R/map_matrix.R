@@ -11,6 +11,7 @@
 #' the function will print out a n*m matrix and automatically
 #' fill in ascending numbers in circle.
 #'
+#' @export
 #' @param max_row Maximum rows of the matrix
 #' @param max_col Maximum columns of the matrix
 #' @return A matrix with ascending numbers in circle
@@ -66,4 +67,8 @@ circle_matrix <- function(max_row, max_col){
   }
   return(map)
 }
+
+
+
+
 
